@@ -129,3 +129,61 @@ dmypy.json
 .pyre/
 
 .idea
+
+# Codex GitHub upload safety rules
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+credentials*.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# JavaScript / frontend / mobile
+node_modules/
+dist/
+.vite/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build output and local tooling
+build/
+target/
+.gradle/
+.idea/
+.local/
+*.log
+*.tmp
+*.cache
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
