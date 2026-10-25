@@ -187,3 +187,6 @@ target/
 *.sqlite
 *.sqlite3
 *.db
+
+# Unix runtime control/socket files
+*.ctl
